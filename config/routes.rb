@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'home2/index2'
+
 resources :songs
 resources :artists
 root 'hip#hop'  
